@@ -1,25 +1,44 @@
-This is the [assistant-ui](https://github.com/Yonom/assistant-ui) starter project.
+# IA-Maritime
 
-## Getting Started
+Um sistema open-source que conecta AI-SDK, Google OpenRouter e MCPs para uma experiência unificada de IA.
 
-First, add your OpenAI API key to `.env.local` file:
+## Próximas funcionalidades excitantes
 
+Em breve...
+
+## Ligações rápidas
+
+- [Demo](https://ia-maritime.vercel.app)
+- [Documentação](https://github.com/dreemrworld/ia-maritime/wiki)
+
+## Instalação local
+
+1. Clona o repositório
+```bash
+git clone https://github.com/dreemrworld/ia-maritime.git
+cd ia-maritime
 ```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+2. Instala dependências
+```bash
+npm install
 ```
 
-Then, run the development server:
+3. Configura variáveis de ambiente
+```bash
+cp .env.example .env.local
+# Edita .env.local com as tuas chaves API
+```
 
+4. Executa o servidor de desenvolvimento
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Licença
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+MIT - Ver [LICENSE](LICENSE)
+
+---
+
+⭐ Se gostares do projeto, dá uma estrela!
