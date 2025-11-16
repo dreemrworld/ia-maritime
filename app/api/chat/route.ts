@@ -43,7 +43,7 @@ export async function POST(req: Request) {
     system,
     stopWhen: stepCountIs(10),
     tools: {
-      ...mcpTools,
+      ...(mcpTools as any),
       ...frontendTools(tools),
       // add backend tools here
     },
