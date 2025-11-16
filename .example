@@ -1,7 +1,0 @@
-GOOGLE_API_KEY=your-google-api-key
-
-# Optional: specify a different model (defaults to gemini-2.5-flash)
-# GOOGLE_MODEL_NAME=gemini-1.5-pro-latest
-
-# chat persistence -- sign up on cloud.assistant-ui.com
-# NEXT_PUBLIC_ASSISTANT_BASE_URL=
